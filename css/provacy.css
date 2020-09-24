@@ -1,0 +1,46 @@
+.menu {
+  width: 100%;
+  background: #F0F2F5;
+  overflow: hidden;
+  border-top: 1px solid #2F2B62;
+}
+.menu .main {
+  width: 940px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 47px;
+}
+.menu .main .main-l {
+  width: 940px;
+  position: relative;
+}
+.menu .main .main-l h3 {
+  text-align: center;
+  font-size: 26px;
+  font-family: DINCond-Black, DINCond;
+  font-weight: 900;
+  color: #2f2b62;
+  line-height: 31px;
+  margin-bottom: 30px;
+}
+.menu .main .main-l .main-box {
+  width: 100%;
+  background: rgba(85, 77, 198, 0.06);
+  box-sizing: border-box;
+  padding: 24px;
+}
+.menu .main .main-l .main-box p {
+  font-size: 14px;
+  font-family: ArialMT;
+  color: #63617b;
+  line-height: 16px;
+  margin-bottom: 20px;
+}
+.menu .main .main-l .main-box p:last-child {
+  margin-bottom: 0px;
+}
+
+/*# sourceMappingURL=provacy.css.map */

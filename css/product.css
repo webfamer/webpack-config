@@ -1,0 +1,37 @@
+.menu {
+  width: 100%;
+  height: 723px;
+  background: #F0F2F5;
+  overflow: hidden;
+  border-top: 1px solid #2F2B62;
+}
+.menu .main {
+  width: 940px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu .main .main-r {
+  padding-top: 86px;
+}
+.menu .main .main-r li {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 95px;
+}
+.menu .main .main-r li img {
+  margin-right: 49px;
+}
+.menu .main .main-r li p {
+  font-size: 20px;
+  font-family: Arial-BoldMT, Arial;
+  font-weight: normal;
+  color: #0f0d28;
+  line-height: 23px;
+}
+
+/*# sourceMappingURL=product.css.map */

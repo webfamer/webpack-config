@@ -1,0 +1,66 @@
+.footer {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  height: 241px;
+}
+.footer h3 {
+  font-size: 16px;
+  font-family: Arial-BoldMT, Arial;
+  font-weight: normal;
+  color: #0f0d28;
+  line-height: 18px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+.footer .foot-l {
+  margin-right: 364px;
+}
+.footer .foot-l li {
+  width: 100px;
+  height: 26px;
+  background: #2F2B62;
+  color: #fff;
+  text-align: center;
+  line-height: 26px;
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+.footer .foot-r li {
+  overflow: hidden;
+  margin-bottom: 14px;
+}
+.footer .foot-r li i {
+  float: left;
+  width: 16px;
+  height: 16px;
+  background: url("../img/tel.png") no-repeat center;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.footer .foot-r li span {
+  float: left;
+  font-size: 12px;
+  font-family: ArialMT;
+  color: #0f0d28;
+  line-height: 14px;
+}
+.footer .foot-r .msg {
+  background: url("../img/msg.png") no-repeat center;
+}
+.footer .foot-r .serve {
+  background: url("../img/serve.png") no-repeat center;
+}
+.footer .copy {
+  font-size: 14px;
+  font-family: ArialMT;
+  color: #cacaca;
+  line-height: 16px;
+  position: absolute;
+  left: 50%;
+  bottom: 14px;
+  margin-left: -57px;
+}
+
+/*# sourceMappingURL=footer.css.map */

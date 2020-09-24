@@ -1,0 +1,46 @@
+.panyun{
+    position: relative;
+}
+.header {
+    width:100%;
+    min-width:760px;
+    margin:0 auto;
+    padding:0 225px;
+    height:120px;
+    line-height:92px;
+    z-index:999;
+    color:#fff;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0px;
+    // .logo{
+    //     float: left;
+    //     height: 92px;      
+    //     padding-left: 96px;
+    //     background: url(../img/logo.png) no-repeat;
+    //     font-size:38px;
+    //     font-weight: bold;
+    // }
+    ul{
+        float:right;
+        li{
+            float: left;
+            font-size:24px; 
+            margin-left:80px;
+            a{
+                color:#fff;
+                cursor: pointer;
+            }
+        }
+    }
+    &.scroll_banner{
+        background:url(../img/head_bg1.png) center top;
+    }
+    &.scroll_main{
+        background:url(../img/head_bg2.png) center top;
+    }
+}
