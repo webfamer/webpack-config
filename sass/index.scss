@@ -60,8 +60,10 @@ body {
             user-select: none;
         }
 
-        .btn {
+        .btn  a{
+            display: block;
             font-size: 36px;
+            text-decoration: none;
             font-family: Arial-BoldMT, Arial;
             font-weight: normal;
             color: #FFC600;
