@@ -37,7 +37,8 @@ module.exports = {
                         loader:'url-loader',
                         options:{
                             limit:1000,
-                            esModule:false  //解决和html-webpack-plugin冲突
+                            esModule:false,  //解决和html-webpack-plugin冲突
+                            name: './img/[name].[ext]'
                         }
                     }
                 ]
